@@ -1,6 +1,8 @@
 {
   # Import all your configuration modules here
   imports = [
+    ./auto-commands.nix
+    ./clipboards.nix
     ./keymapping.nix
     ./options.nix
 
@@ -23,6 +25,7 @@
 
     ./plugins/ui/telescope.nix
     ./plugins/ui/neo-tree.nix
+    ./plugins/ui/startup.nix
 
     ./plugins/utils/which-key.nix
     ./plugins/utils/comment.nix
