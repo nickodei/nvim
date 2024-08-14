@@ -1,0 +1,3 @@
+{
+  colorschemes.onedark.enable = true;
+}

@@ -37,7 +37,9 @@
     #./plugins/colorschemes/vscode.nix
     #./plugins/colorschemes/flow.nix
     # ./plugins/colorschemes/doom-one.nix
-    ./plugins/colorschemes/one-dark-pro.nix
+    # ./plugins/colorschemes/one-dark-pro.nix
+    # ./plugins/colorschemes/poimandres.nix
+    ./plugins/colorschemes/one-dark.nix
 
     ./plugins/statusline/lualine.nix
     ./plugins/statusline/barbecue.nix
