@@ -25,9 +25,7 @@
         vuels = {
           enable = true;
         };
-        csharp-ls = {
-          enable = true;
-        };
+        #csharp-ls.enable = true;
       };
       keymaps = {
         silent = true;

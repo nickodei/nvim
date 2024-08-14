@@ -15,6 +15,7 @@
     ./plugins/lsp/lspkind.nix
     ./plugins/lsp/conform.nix
     ./plugins/lsp/lsp-lines.nix
+    ./plugins/lsp/roslyn-ls.nix
     # ./plugins/lsp/lsp-saga.nix
 
     ./plugins/completion/cmp.nix
