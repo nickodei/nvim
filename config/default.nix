@@ -29,6 +29,8 @@
     ./plugins/ui/neo-tree.nix
     ./plugins/ui/startup.nix
 
+    ./plugins/dap/dap.nix
+
     ./plugins/utils/which-key.nix
     ./plugins/utils/comment.nix
     ./plugins/utils/autopairs.nix
