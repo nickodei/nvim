@@ -1,4 +1,8 @@
-{pkgs, ...}: {
+{
+  pkgs,
+  helpers,
+  ...
+}: {
   plugins.dap = {
     enable = true;
     signs = {
@@ -40,7 +44,7 @@
           type = "coreclr";
           name = "launch - netcoredbg";
           request = "launch";
-          program = ''
+          program = helpers.mkRaw ''
             function()
                 return vim.fn.input('Path to dll', vim.fn.getcwd() .. '/bin/Debug/', 'file')
             end
