@@ -28,6 +28,7 @@
     ./plugins/ui/telescope.nix
     ./plugins/ui/neo-tree.nix
     ./plugins/ui/startup.nix
+    ./plugins/ui/toggleterm.nix
 
     ./plugins/dap/dap.nix
 
